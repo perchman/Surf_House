@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/46e830f02a.js" crossorigin="anonymous"></script>
-    <title>SURFHOUSE - Home</title>
+    <title>SURFHOUSE - Shop</title>
 </head>
 <body>
     <header class="intro">
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="intro_inner">
-                <div class="intro_item_one">
+                <div class="intro_item">
                     <div class="personal">
                         <div class="login">
                             <a href="#personal">Log In</a>
@@ -70,37 +70,7 @@
                             </button>
                         </form>
                     </div> <!-- /.personal -->
-                    <div class="welcome">
-                        <div class="welcome_inner">
-                            <h2 class="welcome_title">Welcome to surfhouse</h2>
-                            <em class="welcome_text">The only online store you will ever need for all your windsurfing and kitesurfing and SUP needs</em>
-                        </div>
-                    </div>
-                </div> <!-- /.intro_item_one -->
-                <div class="intro_item_two">
-                    <div class="cards">
-                        <div class="cards_inner">
-                            <div class="cards_content">
-                                <h1 class="cards_title">JP Funride 2014</h1>
-                                <div class="cards_text">Super easy going freeride boards based on the X-Cite Ride shape concept with additional control and super easy jibing. </div>
-                            </div>
-                            <div class="slider">
-                                <a class="slider_item" href="#slider">
-                                    <div class="slider_arrow_left"></div>
-                                </a>
-                                <a class="slider_item" href="#slider">
-                                    <div class="slider_arrow_right"></div>
-                                </a>
-                            </div>
-                        </div>
-                        <a class="cards_btn" href="#cards">Buy Now</a>
-                    </div>
-                </div> <!-- /.intro_item_two -->
-                <div class="scroll">
-                    <div class="scroll_one"></div>
-                    <div class="scroll_two"></div>
-                    <div class="scroll_three"></div>
-                </div>
+                </div> <!-- /.intro_item -->
             </div> <!-- /.intro_inner -->
         </div> <!-- /. container -->
     </header>
@@ -122,26 +92,75 @@
                         <a class="nav_item" href="#nav">Gadgets</a>
                         <a class="nav_item" href="#nav">Contact</a>
                     </div>
-                    <a class="news" href="#news">
-                        <em>Now is open!</em>
-                    </a>
+                    <div class="nav">
+                        <div class="nav_title">Menu</div>
+                        <a class="nav_item nav_item--category" href="#nav">Men</a>
+                        <a class="nav_item nav_item--category" href="#nav">Women</a>
+                        <a class="nav_item nav_item--category" href="#nav">Kids</a>
+                        <a class="nav_item nav_item--category" href="#nav">Wetsuits</a>
+                        <a class="nav_item nav_item--category" href="#nav">Outerwear</a>
+                    </div>
+                    <div class="nav">
+                        <div class="nav_title">Menu</div>
+                        <a class="nav_item nav_item--brand" href="#nav">Billabong</a>
+                        <a class="nav_item nav_item--brand" href="#nav">Element</a>
+                        <a class="nav_item nav_item--brand" href="#nav">O'Neill</a>
+                        <a class="nav_item nav_item--brand" href="#nav">Oakley</a>
+                        <a class="nav_item nav_item--brand" href="#nav">Reef</a>
+                        <a class="nav_item nav_item--brand" href="#nav">Quiksilver</a>
+                        <a class="nav_item nav_item--brand" href="#nav">Ripcurl</a>
+                        <a class="nav_item nav_item--brand" href="#nav">Jackss</a>
+                    </div>
                 </div> <!-- /.column_one -->
                 <div class="column_two">
                     <div class="product">
                         <div class="product_section">
-                            <div class="product_header">
-                                <h3 class="product_title">New Products</h3>
-                                <div class="product_slider">
-                                    <a class="product_left" href="#product"></a>
-                                    <a class="product_right" href="#product"></a>
+                            <div class="product_options">
+                                <div class="product_nav">
+                                    <a class="product_way" href="#product">Home » Apparel » <mark>Women</mark></a>
+                                    <a class="product_back" href="#product">« Back to previous page</a>
                                 </div>
-                            </div>
+                                <div class="settings">
+                                    <div class="settings_item">
+                                        <div class="settings_name">Sort by</div>
+                                        <select name="select">
+                                            <option selected value="s1">Position</option>
+                                            <option value="s2">Alphabet</option>
+                                            <option value="s2">Date</option>
+                                            <option value="s2">Price</option>
+                                        </select>
+                                        <div class="settings_name">↑</div>
+                                    </div>
+                                    <div class="settings_item">
+                                        <div class="settings_name">View As:</div>
+                                        <a class="settings_view settings_view--active" href="#product"><i class="fas fa-th-large"></i></a>
+                                        <a class="settings_view" href="#product"><i class="fas fa-th-list"></i></a>
+                                    </div>
+                                    <div class="settings_item">
+                                        <div class="settings_name">Show</div>
+                                        <select name="select">
+                                            <option selected value="s1">9</option>
+                                            <option value="s2">6</option>
+                                            <option value="s2">3</option>
+                                        </select>
+                                        <div class="settings_name">Per Page</div>
+                                    </div>
+                                    <div class="settings_item">
+                                        <div class="settings_name">Page:</div>
+                                        <a class="settings_page settings_page--active" href="#setting">1</a>
+                                        <a class="settings_page" href="#setting">2</a>
+                                        <a class="settings_slider" href="#setting">
+                                            <div></div>
+                                        </a>
+                                    </div>
+                                </div> <!-- /.settings -->
+                            </div> <!-- /.product_options -->
                             <div class="product_goods">
                                 <a class="product_item" href="#product">
                                     <div class="product_inner">
                                         <img src="http://placehold.it/250x230" alt="">
                                         <div class="product_descript">
-                                            <div class="product_name">Single Thruster 2014</div>
+                                            <div class="product_name">SLEEVE SPRING SUIT</div>
                                             <div class="product_price">€.865.00</div>
                                         </div>
                                     </div>
@@ -151,7 +170,7 @@
                                     <div class="product_inner">
                                         <img src="http://placehold.it/250x230" alt="">
                                         <div class="product_descript">
-                                            <div class="product_name">Freestyle Wave FSW</div>
+                                            <div class="product_name">SALTY DAYZ</div>
                                             <div class="product_price">€.770.50</div>
                                             <div class="product_price_old">€.1,270.15</div>
                                         </div>
@@ -162,8 +181,35 @@
                                     <div class="product_inner">
                                         <img src="http://placehold.it/250x230" alt="">
                                         <div class="product_descript">
-                                            <div class="product_name">The White Collection SURFBOARD 2014</div>
-                                            <div class="product_price">€.1,580.70</div>
+                                            <div class="product_name">CHEEKY JANE</div>
+                                            <div class="product_price">€.280.70</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">SYNERGY 2MM BACK ZIP </div>
+                                            <div class="product_price">€.765.00</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">SYNERGY 2MM </div>
+                                            <div class="product_price">€.230.50</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">SURF YOKE 19 QS</div>
+                                            <div class="product_price">€.€.330.70</div>
                                         </div>
                                     </div>
                                 </a>
@@ -190,91 +236,99 @@
                                         <img src="http://placehold.it/250x230" alt="">
                                         <div class="product_descript">
                                             <div class="product_name">YOKE 19 QS</div>
-                                            <div class="product_price">€.1,130.70</div>
+                                            <div class="product_price">€.1130.70</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">DOLLS TANK TOP</div>
+                                            <div class="product_price">€.765.00</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">PULLOVER TOP</div>
+                                            <div class="product_price">€.230.50</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">ENEVER TOP</div>
+                                            <div class="product_price">€.1130.70</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">RELAY RACE HENLEY TOP</div>
+                                            <div class="product_price">€.765.00</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">BREEZE ZIP UP</div>
+                                            <div class="product_price">€.230.50</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product_item" href="#product">
+                                    <div class="product_inner">
+                                        <img src="http://placehold.it/250x230" alt="">
+                                        <div class="product_descript">
+                                            <div class="product_name">BREEZE ZIP UP JACKE</div>
+                                            <div class="product_price">€.480.70</div>
                                         </div>
                                     </div>
                                 </a>
                             </div> <!-- /.product_goods -->
-                        </div> <!-- /.product_section -->
-                        <div class="product_section">
-                            <div class="product_header">
-                                <h3 class="product_title">Top Products</h3>
-                                <div class="product_slider">
-                                    <a class="product_left" href="#product"></a>
-                                    <a class="product_right" href="#product"></a>
+                            <div class="settings">
+                                <div class="settings_item">
+                                    <div class="settings_name">Sort by</div>
+                                    <select name="select">
+                                        <option selected value="s1">Position</option>
+                                        <option value="s2">Alphabet</option>
+                                        <option value="s2">Date</option>
+                                        <option value="s2">Price</option>
+                                    </select>
+                                    <div class="settings_name">↑</div>
                                 </div>
-                            </div>
-                            <div class="product_goods">
-                                <a class="product_item" href="#product">
-                                    <div class="product_inner">
-                                        <img src="http://placehold.it/250x230" alt="">
-                                        <div class="product_descript">
-                                            <div class="product_name">USHINGHAM LIGHTNING 2014</div>
-                                            <div class="product_price">€.2,960.95</div>
-                                            <div class="product_price_old">€.3,100.15</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="product_item" href="#product">
-                                    <div class="product_inner">
-                                        <img src="http://placehold.it/250x230" alt="">
-                                        <div class="product_descript">
-                                            <div class="product_name">CYPHER HEAT VES M</div>
-                                            <div class="product_price">€.849.95</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="product_item" href="#product">
-                                    <div class="product_inner">
-                                        <img src="http://placehold.it/250x230" alt="">
-                                        <div class="product_descript">
-                                            <div class="product_name">SYNCRO WOMENS  QS M</div>
-                                            <div class="product_price">€.1,110.99</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> <!-- /.product_goods -->
-                        </div> <!-- /.product_section -->
-                        <div class="product_section">
-                            <div class="product_header">
-                                <h3 class="product_title">Sale Products</h3>
-                                <div class="product_slider">
-                                    <a class="product_left" href="#product"></a>
-                                    <a class="product_right" href="#product"></a>
+                                <div class="settings_item">
+                                    <div class="settings_name">View As:</div>
+                                    <a class="settings_view settings_view--active" href="#product"><i class="fas fa-th-large"></i></a>
+                                    <a class="settings_view" href="#product"><i class="fas fa-th-list"></i></a>
                                 </div>
-                            </div>
-                            <div class="product_goods">
-                                <a class="product_item" href="#product">
-                                    <div class="product_inner">
-                                        <img src="http://placehold.it/250x230" alt="">
-                                        <div class="product_descript">
-                                            <div class="product_name">SYNCRO MENS QS M</div>
-                                            <div class="product_price">€.249.95</div>
-                                            <div class="product_price_old">€.450.15</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="product_item" href="#product">
-                                    <div class="product_inner">
-                                        <img src="http://placehold.it/250x230" alt="">
-                                        <div class="product_descript">
-                                            <div class="product_name">RAMOS - SHIRT FOR MEN</div>
-                                            <div class="product_price">€.459.65</div>
-                                            <div class="product_price_old">€.570.65</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="product_item" href="#product">
-                                    <div class="product_inner">
-                                        <img src="http://placehold.it/250x230" alt="">
-                                        <div class="product_descript">
-                                            <div class="product_name">SIXSIXONE EVO WIRED FULL FACE</div>
-                                            <div class="product_price">€.240.00</div>
-                                            <div class="product_price_old">€.370.65</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div> <!-- /.product_goods -->
+                                <div class="settings_item">
+                                    <div class="settings_name">Show</div>
+                                    <select name="select">
+                                        <option selected value="s1">9</option>
+                                        <option value="s2">6</option>
+                                        <option value="s2">3</option>
+                                    </select>
+                                    <div class="settings_name">Per Page</div>
+                                </div>
+                                <div class="settings_item">
+                                    <div class="settings_name">Page:</div>
+                                    <a class="settings_page settings_page--active" href="#setting">1</a>
+                                    <a class="settings_page" href="#setting">2</a>
+                                    <a class="settings_slider" href="#setting">
+                                        <div></div>
+                                    </a>
+                                </div>
+                            </div> <!-- /.settings -->
                         </div> <!-- /.product_section -->
                     </div> <!-- /.product -->
                 </div> <!-- /.column_two -->
@@ -305,49 +359,11 @@
                             <a href="#widget" class="widget_all">view all tags  →</a>
                         </div>
                     </div> <!-- /.widget -->
-                    <div class="articles">
-                        <div class="articles_inner">
-                            <h4 class="articles_title">Articles Experts</h4>
-                            <div class="articles_gadgets">
-                                <a class="articles_item" href="#articles">LG Spectrum review</a>
-                                <a class="articles_item" href="#articles">Verizon Droid Xyboard 8.2 and 10.1 review</a>
-                                <a class="articles_item" href="#articles">Mac mini review (mid 2011)</a>
-                                <a class="articles_item" href="#articles">Wacom Inkling review</a>
-                                <a class="articles_item" href="#articles">Sonos Play:3 review</a>
-                                <a class="articles_item" href="#articles">HTC Radar 4G review</a>
-                                <a class="articles_item" href="#articles">Canon PowerShot S100</a>
-                                <a class="articles_item" href="#articles">Apple iMac</a>
-                            </div>
-                            <a href="#articles" class="articles_all">view all  →</a>
-                        </div>
-                    </div>
+                    <a class="news" href="#news">
+                        <em>Now is open!</em>
+                    </a>
                 </div> <!-- /.column_three -->
-            </div> <!-- /.contant_inner -->
-            <div class="brand">
-                <div class="brand_item"></div>
-                <div class="brand_item"></div>
-                <div class="brand_item"></div>
-                <div class="brand_item"></div>
-                <div class="brand_item"></div>
-                <div class="brand_item"></div>
-                <div class="brand_item"></div>
-                <div class="brand_item"></div>
-            </div>
-            <div class="inst">
-                <div class="inst_header">
-                    <i class="fab fa-instagram"></i>
-                    <h4 class="inst_title">Instagram feed</h4>
-                    <a class="inst_link" href="#inst">: #surfhouse</a>
-                </div>
-                <div class="inst_photo">
-                    <img class="inst_item" src="images\instagram\1.jpg" alt="">
-                    <img class="inst_item" src="images\instagram\2.jpg" alt="">
-                    <img class="inst_item" src="images\instagram\3.jpg" alt="">
-                    <img class="inst_item" src="images\instagram\4.jpg" alt="">
-                    <img class="inst_item" src="images\instagram\5.jpg" alt="">
-                    <img class="inst_item" src="images\instagram\6.jpg" alt="">
-                </div>
-            </div>
+            </div> <!-- /.content_inner -->
             <div class="social">
                 <a class="social_item facebook" href="#" target="_blank">
                     <i class="fab fa-facebook-f"></i>
@@ -359,7 +375,7 @@
                     <i class="fab fa-pinterest-p"></i>
                 </a>
             </div>
-        </div> <!-- /. container -->
+        </div> <!-- /.container -->
     </div> <!-- /.content -->
     <footer class="footer">
         <div class="footer_container">
