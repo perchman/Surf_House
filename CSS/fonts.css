@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Releway';
+    font-weight: 100;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-Thin.otf');
+    src: url('../fonts/Releway/raleway-thin-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-thin-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 200;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-ExtraLight.otf');
+    src: url('../fonts/Releway/raleway-extralight-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-extralight-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-Light.otf');
+    src: url('../fonts/Releway/raleway-light-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-light-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-Regular.otf');
+    src: url('../fonts/Releway/raleway-regular-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-regular-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-Medium.otf');
+    src: url('../fonts/Releway/raleway-medium-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-medium-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-SemiBold.otf');
+    src: url('../fonts/Releway/raleway-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-semibold-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-Bold.otf');
+    src: url('../fonts/Releway/raleway-bold-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-bold-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-ExtraBold.otf');
+    src: url('../fonts/Releway/raleway-extrabold-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-extrabold-webfont.woff') format('woff'),
+}
+
+@font-face {
+    font-family: 'Releway';
+    font-weight: 900;
+    font-style: normal;
+    src: url('../fonts/Releway/Raleway-Heavy.otf');
+    src: url('../fonts/Releway/raleway-heavy-webfont.woff2') format('woff2'),
+    url('../fonts/Releway/raleway-heavy-webfont.woff') format('woff'),
+}

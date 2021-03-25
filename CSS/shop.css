@@ -1,0 +1,115 @@
+/* Intro */
+.intro_inner {
+    padding-bottom: 25px;
+}
+
+/* Personal */
+.personal {
+    margin-bottom: 0;
+}
+
+/* Column */
+.column_one {
+    margin-top: 0;
+}
+.column_two {
+    margin-top: 0;
+}
+
+/* Product */
+.product_options {
+    padding: 35px 10px 30px;
+}
+.product_nav {
+    padding-bottom: 50px;
+}
+.product_item {
+    height: 320px;
+    margin-bottom: 30px;
+}
+.product_descript {
+    margin-top: 16px;
+}
+
+/* Settings */
+.settings {
+    display: flex;
+    justify-content: space-between;
+}
+.settings_item {
+    display: flex;
+    align-items: center;
+}
+.settings_name {
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #333;
+    text-transform: uppercase;
+}
+.settings_name:first-child {
+    margin-left: 0px;
+}
+.settings_item select {
+    padding: 1px 22px 1px 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #666669;
+    border-color: #d6d4d4;
+    outline: 0;
+}
+.settings_view {
+    margin: 0 3px;
+    padding: 0 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #c0c0c0;
+    transition: background .1s linear;
+}
+.settings_view:hover {
+    background-color: #faef03;
+}
+.settings_view--active {
+    color: #26d2fc;
+}
+.settings_view--active:hover {
+    background-color: inherit;
+}
+.settings_page {
+    margin: 0 3px;
+    padding: 2px 6px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #333;
+    transition: background .1s linear;
+}
+.settings_page:hover {
+    background-color: #faef03;
+}
+.settings_page--active {
+    color: #fff;
+    background-color: #26d2fc;
+}
+.settings_page--active:hover {
+    background-color: #26d2fc;
+}
+.settings_slider {
+    display: block;
+    padding: 4px 6px 4px 4px;
+}
+.settings_slider:hover {
+    background-color: #faef03;
+}
+.settings_slider div {
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #a5a5a5;
+    border-right: 2px solid #a5a5a5;
+    transform: rotate(45deg);
+}
+
+/* News */
+.news {
+    height: 317px;
+}

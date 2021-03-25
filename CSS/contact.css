@@ -1,0 +1,65 @@
+/* Intro */
+.intro {
+    background: url(../images/intro/bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.intro_header {
+    margin-bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 215px;
+}
+.intro_social {
+    align-items: center;
+    height: 20px;
+    padding: 10px 14px 10px 22px;
+    background-color: rgba(150, 150, 150, .5);
+}
+.intro_social a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 12px;
+    opacity: 1;
+    transition: transform .1s linear;
+}
+.intro_social a:hover {
+    transform: scale(1.2);
+}
+.intro_language {
+    margin: 0 5px;
+}
+
+/* Column */
+.column_one {
+    margin-top: 0;
+}
+.column_two {
+    margin-top: 0;
+}
+
+/* Nav */
+.nav_item {
+    padding: 12px 0 12px 42px;
+}
+
+/* Product */
+.product_nav {
+    margin: 16px 25px 80px;
+}
+
+/* Brand */
+.brand {
+    margin-top: 60px;
+    width: 100%;
+    justify-content: center;
+    background-color: #fff;
+}
+.brand_item {
+    width: 150px;
+}
+
+/* News */
+.news {
+    height: 320px;
+}

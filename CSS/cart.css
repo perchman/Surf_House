@@ -1,0 +1,142 @@
+/* Container */
+.container {
+    max-width: 1185px;
+}
+
+/* Intro */
+.intro_header {
+    margin-bottom: 0;
+    padding-bottom: 215px;
+}
+
+/* Column */
+.column_one {
+    margin-top: -132px;
+    margin-right: 14px;
+}
+.column_two {
+    width: 900px;
+    margin-top: -132px;
+}
+.column_three {
+    width: 270px;
+}
+
+/* Nav */
+.nav_item {
+    padding: 12px 0 12px 42px;
+}
+
+/* Product */
+.product_header--step {
+    margin-left: 35px;
+}
+.product_nav {
+    margin: 35px 5px;
+}
+.product_back {
+    margin-right: 25px;
+}
+.product_content {
+    display: flex;
+    position: relative;
+}
+.product_content::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e6e6e6;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    z-index: 1;
+    transform: translate3d(-50%, 0, 0);
+}
+.product_section {
+    width: 884px;
+    padding-left: 16px;
+}
+.product_title {
+    margin-left: 0;
+    padding: 85px 0 30px;
+    font-family: 'Releway', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: #333;
+    text-transform: uppercase;
+}
+.product_item {
+    height: 320px;
+}
+.product_descript {
+    margin-top: 16px;
+}
+
+/* Basket */
+.basket {
+    width: 270px;
+    height: 390px;
+    margin-top: 30px;
+    margin-left: 5px;
+    background-color: #fb4d01;
+}
+.basket_inner {
+    margin: 35px 25px 60px;
+}
+.basket_title {
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+.basket_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.basket_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+.basket_sum {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+.basket_total {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+}
+.basket_btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #333;
+    transition: background .1s linear;
+}
+.basket_btn:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+/* News */
+.news {
+    height: 311px;
+}
