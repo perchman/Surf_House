@@ -75,65 +75,7 @@
 
 /* Basket */
 .basket {
-    width: 270px;
-    height: 390px;
-    margin-top: 30px;
-    margin-left: 5px;
-    background-color: #fb4d01;
-}
-.basket_inner {
-    margin: 35px 25px 60px;
-}
-.basket_title {
-    margin-bottom: 40px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 900;
-    color: #fff;
-    text-transform: uppercase;
-}
-.basket_item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
-}
-.basket_text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-}
-.basket_sum {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: #fff;
-}
-.basket_total {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 900;
-    color: #fff;
-}
-.basket_btn {
-    width: 100%;
-    height: 40px;
-    margin-top: 35px;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #333;
-    transition: background .1s linear;
-}
-.basket_btn:hover {
-    background-color: rgb(80, 80, 80);
+    margin: 30px 0 0 5px;
 }
 
 /* News */
