@@ -1,6 +1,7 @@
 /* Container */
 .container {
     max-width: 1185px;
+    min-width: 1185px;
 }
 
 /* Intro */
